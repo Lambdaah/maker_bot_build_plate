@@ -312,7 +312,6 @@ void Plate<T>::bruteForce(T & obj,int id)
 		}
 	}
 
-	std::cout << "Bestpoint:" << bestPoint.x << " " << bestPoint.y << std::endl;
 	//Place the object on the plate
 	int x = bestPoint.x, y = bestPoint.y;
 	if (x >= 0 && y >= 0) {

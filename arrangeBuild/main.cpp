@@ -45,4 +45,5 @@ int main(int argc, char * argv[]) {
 	buildPlate.printPlate();
 	buildPlate.printPlacementList();
 
+
 }
