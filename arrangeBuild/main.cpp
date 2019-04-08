@@ -45,6 +45,4 @@ int main(int argc, char * argv[]) {
 	buildPlate.printPlate();
 	buildPlate.printPlacementList();
 
-	int i;
-	std::cin >> i;
 }
