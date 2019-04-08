@@ -7,8 +7,8 @@
 
 int main(int argc, char * argv[]) {
 	if(argc < 3){
-		std::cerr << "\n\nUsage: ./arrangeBuild <dimensions> <collection of objects of form Height,Width >\n";
-		std::cerr << "Example: ./arrangeBuild 5 3,3 1,1 2,2 \n";
+		std::cerr << "\n\nUsage: ./arrangePlate <dimensions> <collection of objects of form Height,Width >\n";
+		std::cerr << "Example: ./arrangePlate 5 3,3 1,1 2,2 \n";
 		std::cerr << "The line above will create a build plate for dimensions 5x5 and attempt to insert 3 objects of size 3x3,1x1 and 2x2.\n\n";
 		return 0;
 	}

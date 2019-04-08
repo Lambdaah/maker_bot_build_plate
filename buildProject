@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+
+cd arrangeBuild
+g++ -std=c++11 -c -o main.o main.cpp
+g++ -std=c++11 -c -o objects.o objects.cpp
+g++ -std=c++11 -c -o plate.o plate.cpp
+g++ -std=c++11 -o arrangePlate main.o objects.o plate.o
+cp ./arrangePlate ./..
+
+echo "Please run the program by doing: ./arrangePlate <dimension> <Collections of H,W of Objects>
+echo "Example: ./arrangePlate 5 3,3 1,1 2,2"
+echo "The line above will generate a build plate of size 5x5, and place 3 objects of H,W (3,3),(1,1),(2,2)
